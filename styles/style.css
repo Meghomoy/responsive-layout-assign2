@@ -1,0 +1,95 @@
+body {
+
+    /* width: 1400px; */
+    background-color: #FFFFFF;
+
+    justify-content: center;
+    border: 2px solid yellow;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner style ... */
+.container {
+    background-color: rgb(15, 15, 32);
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    border-radius: 30px;
+    padding-left: 106px;
+}
+
+.banner-info {
+    color: white;
+    width: 50%;
+    margin-right: 50px;
+}
+
+.banner-info h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.banner-info p {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.banner-info .link-button {
+    text-decoration: none;
+    background-color: rgb(185, 17, 17);
+    padding: 15px 25px;
+    border-radius: 7px;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.banner-image img {
+    height: 600px;
+    width: 581px;
+
+
+
+}
+
+/* blog-section style ............. */
+.blogs {
+    margin-top: 50px;
+}
+
+.side-manu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(16, 16, 19);
+    border: 2px solid red;
+}
+
+.manu-button {
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+
+
+}
+
+/* blogs duration and chating styles ............. */
+
+.video-duration {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.times {
+    display: flex;
+    align-items: center;
+}
+
+.chats {
+    display: flex;
+    align-items: center;
+}
